@@ -1,0 +1,87 @@
+{
+  "uid" : "6494a296f53ed8e7",
+  "name" : "test_timestamp[20190501-2019-6-30-False]",
+  "fullName" : "test_postman_api#test_timestamp",
+  "historyId" : "2b2a9e2565ade4cdeff2bed9626f2f66",
+  "time" : {
+    "start" : 1592398481521,
+    "stop" : 1592398482823,
+    "duration" : 1302
+  },
+  "description" : "\n    用例描述：测试不同的timestamp和target\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：测试不同的timestamp和target\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'True' == 'False'\n  - False\n  + True",
+  "statusTrace" : "timestamp = '20190501', target = '2019-6-30', expected = 'False'\nenv_config = {'host': {'url': 'https://postman-echo.com/time/before'}}\n\n    @allure.feature('postman')\n    @allure.story('postman-api')\n    @pytest.mark.parametrize('timestamp,target,expected',test_data)\n    def test_timestamp(timestamp,target,expected,env_config):\n        \"\"\"\n        用例描述：测试不同的timestamp和target\n        \"\"\"\n        #从yml配置文件获取url\n        url = env_config['host']['url']\n        payload = {'timestamp':timestamp,'target':target}\n        r = requests.get(url,params=payload)\n        print(r.url)\n        result = r.json()\n>       assert str(result['before'])==expected\nE       AssertionError: assert 'True' == 'False'\nE         - False\nE         + True\n\ntest_postman_api.py:28: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "env_config",
+    "time" : {
+      "start" : 1592398456489,
+      "stop" : 1592398456489,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "postman"
+  }, {
+    "name" : "story",
+    "value" : "postman-api"
+  }, {
+    "name" : "suite",
+    "value" : "test_postman_api"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O3MNR9LK"
+  }, {
+    "name" : "thread",
+    "value" : "20020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_postman_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'False'"
+  }, {
+    "name" : "target",
+    "value" : "'2019-6-30'"
+  }, {
+    "name" : "timestamp",
+    "value" : "'20190501'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6494a296f53ed8e7.json",
+  "parameterValues" : [ "'False'", "'2019-6-30'", "'20190501'" ]
+}

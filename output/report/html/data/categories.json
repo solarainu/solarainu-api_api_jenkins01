@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "children" : [ {
+        "name" : "test_timestamp[2019-12-33-2019-6-30-False]",
+        "uid" : "32f14baaf2d96c5",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592398468290,
+          "stop" : 1592398471974,
+          "duration" : 3684
+        },
+        "flaky" : false,
+        "parameters" : [ "'False'", "'2019-6-30'", "'2019-12-33'" ]
+      }, {
+        "name" : "test_timestamp[-2019-6-30-False]",
+        "uid" : "12309960c5a97c99",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592398472101,
+          "stop" : 1592398473605,
+          "duration" : 1504
+        },
+        "flaky" : false,
+        "parameters" : [ "'False'", "'2019-6-30'", "''" ]
+      }, {
+        "name" : "test_timestamp[--False]",
+        "uid" : "6cf3a99a30c77e96",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592398478518,
+          "stop" : 1592398479947,
+          "duration" : 1429
+        },
+        "flaky" : false,
+        "parameters" : [ "'False'", "''", "''" ]
+      }, {
+        "name" : "test_timestamp[abc-2019-6-30-False]",
+        "uid" : "5c4db84f779f1bf6",
+        "parentUid" : "7bcaf70ebf758f58bb51e7ee5ff79f52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592398480000,
+          "stop" : 1592398481490,
+          "duration" : 1490
+        },
+        "flaky" : false,
+        "parameters" : [ "'False'", "'2019-6-30'", "'abc'" ]
+      } ],
+      "uid" : "7bcaf70ebf758f58bb51e7ee5ff79f52"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'True' == 'False'\n  - False\n  + True",
+      "children" : [ {
+        "name" : "test_timestamp[20190501-2019-6-30-False]",
+        "uid" : "6494a296f53ed8e7",
+        "parentUid" : "e8e309755e2efcaa5197de3b1633c027",
+        "status" : "failed",
+        "time" : {
+          "start" : 1592398481521,
+          "stop" : 1592398482823,
+          "duration" : 1302
+        },
+        "flaky" : false,
+        "parameters" : [ "'False'", "'2019-6-30'", "'20190501'" ]
+      } ],
+      "uid" : "e8e309755e2efcaa5197de3b1633c027"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

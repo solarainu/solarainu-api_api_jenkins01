@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "e00edbe22e27578c32b7f4f5cdf27b96",
+    "name" : "test_postman_api",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 12
+    }
+  } ]
+}

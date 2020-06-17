@@ -1,0 +1,37 @@
+"Status","Name","Duration in ms","Description"
+"broken","test_postman_api#test_timestamp","1490","
+    用例描述：测试不同的timestamp和target
+    "
+"passed","test_postman_api#test_timestamp","3262","
+    用例描述：测试不同的timestamp和target
+    "
+"failed","test_postman_api#test_timestamp","1302","
+    用例描述：测试不同的timestamp和target
+    "
+"broken","test_postman_api#test_timestamp","1504","
+    用例描述：测试不同的timestamp和target
+    "
+"passed","test_postman_api#test_timestamp","1349","
+    用例描述：测试不同的timestamp和target
+    "
+"broken","test_postman_api#test_timestamp","3684","
+    用例描述：测试不同的timestamp和target
+    "
+"broken","test_postman_api#test_timestamp","1429","
+    用例描述：测试不同的timestamp和target
+    "
+"passed","test_postman_api#test_timestamp","1323","
+    用例描述：测试不同的timestamp和target
+    "
+"passed","test_postman_api#test_timestamp","3066","
+    用例描述：测试不同的timestamp和target
+    "
+"passed","test_postman_api#test_timestamp","1577","
+    用例描述：测试不同的timestamp和target
+    "
+"passed","test_postman_api#test_timestamp","1437","
+    用例描述：测试不同的timestamp和target
+    "
+"passed","test_postman_api#test_timestamp","4594","
+    用例描述：测试不同的timestamp和target
+    "
