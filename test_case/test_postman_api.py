@@ -27,6 +27,7 @@ def test_timestamp(timestamp,target,expected,env_config):
     result = r.json()
     assert str(result['before'])==expected
 
+
 if __name__ == '__main__':
     pytest.main(['-s','-v',r'C:\Users\lizho\Desktop\api_auto_test-master\test_case\test_postman_api.py','--alluredir=../output/report/xml/'])
     import os
